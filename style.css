@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+    :root{
+--VDG-Blue: hsl(217, 19%, 35%);
+--Desaturated-DBlue: hsl(214, 17%, 51%);
+--Grayish-Blue: hsl(212, 23%, 69%);
+--LG-Blue: hsl(210, 46%, 95%);    
+    }
+    
+    body{
+    font-family: 'Manrope', sans-serif;    
+    background: var(--LG-Blue);   
+    width: 1440px; 
+    }
+
+    main{display: flex;           
+        margin: 259px 356px;    
+    }
+    .left img{max-width: 100%;}
+    .left{width: 284px;
+        height: 280px;
+        background: url('./images/drawers.jpg') no-repeat;
+        background-size: cover;
+        border-radius: 10px 0px 0px 10px;}    
+        #social{
+            visibility: hidden;
+        }
+        .triangle-dow{width: 0;
+            height: 0;
+            border-left: 25px solid transparent;
+            border-right: 25px solid transparent;
+            position: relative;        
+            border-top: 50px solid var(--VDG-Blue);
+                margin: -76px 0px 0px -84px;}
+    .topsocial{background: var(--VDG-Blue);
+        width: 250px;
+        height: 68px;
+        border-radius: 10px;  
+        font-size: 13px;      
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 18px 16px;
+        margin: -90px 0px 0px -144px;
+        text-transform: uppercase;
+        letter-spacing: 8px;}       
+        #sicon{visibility: hidden;
+            width: 28px;
+            background: white;
+            border-radius: 50%;}
+    .right{width: 444px;
+        height: 280px;
+        background: white;
+        padding: 40px 40px 28px 40px;
+        border-radius: 0px 10px 10px 0px;}
+    #avtr{
+        width: 56px;
+        border-radius: 50%;
+    }
+    .rtbtm{display: flex;
+        align-items: center;
+    justify-content: space-between;
+    margin: 22px 0px 0px 0px;}
+    .rtbtm button{width: 32px;
+        height: 32px;
+        border: none;
+        outline: none;
+        border-radius: 50%;}
+
+    .right h1{ font-size: 16px;
+        margin: 0px 0px 26px 0px;}
+    .right p{font-size: 13px;
+        position: relative;
+        color: var(--Grayish-Blue);}
+    
+
+    .rtbtm figcaption span{font-size: 13px;
+    color:var(--Grayish-Blue);}
+    
+     
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+@media screen and (max-width: 600px) {
+
+        body{
+            width: 375px;
+        }
+        main{flex-direction: column;
+            margin: 75px 24px;
+            padding: 0px;}
+
+        .left{margin: 0px;       
+            width: 326px;
+            border-radius: 10px 10px 0px 0px;}
+        .right h1 br{
+            display: none;
+        }
+
+        .right{margin: 0px;
+            padding: 32px;
+            width: 326px;
+            height: 304px;
+            border-radius: 0px 0px 10px 10px;}
+        .rtbtm{
+            margin: 32px 0px;
+            padding: 0px;
+            
+        }
+       
+        .topsocial{margin: -8px 0px 0px -294px;
+            width: 326px;
+            height: 80px;
+            border-radius: 0px 0px 10px 10px;    
+            padding: 8px 80px 18px 16px;               
+                       
+           }
+        .triangle-dow{
+            visibility: hidden;
+        }
+       #share{
+           z-index: 1;
+           position: absolute;
+           margin: -8px 0px 0px -8px;                      
+       }
+       
+        
+       
+       
+           
+           
+            
+        
+    }
