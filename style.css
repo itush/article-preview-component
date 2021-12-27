@@ -78,8 +78,8 @@
         position: relative;
         color: var(--Grayish-Blue);}
     
-
-    .rtbtm figcaption span{font-size: 13px;
+    .rtbtm h2 {font-size: 14px;}
+    .rtbtm h2 span{font-size: 13px;
     color:var(--Grayish-Blue);}
     
      
